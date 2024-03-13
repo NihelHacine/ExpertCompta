@@ -11,7 +11,7 @@ function Navbarr() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
-        <Link to="/" style={{textDecoration:"none"}}><Navbar.Brand href="#home"><img src='./clogo.png' width={'180px'} height={'80px'}/></Navbar.Brand></Link>
+        <Link to="/" style={{textDecoration:"none"}}> <Navbar.Brand href="#home"><img src='./clogo.png' width={'180px'} height={'80px'}/></Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -26,6 +26,7 @@ function Navbarr() {
             </NavDropdown>
           </Nav>
           <Nav>
+          <Link to="/" style={{textDecoration:"none"}}><Nav.Link href="#features">Forum</Nav.Link></Link>
           <Link to="contact" style={{textDecoration:"none"}}><Nav.Link href="#deets" >Contactez nous</Nav.Link></Link>
           <Link to="login" style={{textDecoration:"none"}}><Button variant="warning"> Devenir notre client</Button></Link>            
             <Link to="login" style={{textDecoration:"none"}}> 

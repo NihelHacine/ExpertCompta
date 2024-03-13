@@ -86,7 +86,7 @@ function Footer() {
                   <ul>
                     <li><a href="#">Qui sommes nous?</a></li>
                     <li><a href="#">Contactez nous</a></li>
-                    <li><a href="#">Nos services</a></li>
+                    <li><a href="#">Forum</a></li>
                   </ul>
                 </div>
               </div>
